@@ -1,5 +1,7 @@
 ## - MARCA PAMPA -  📸 🌾
 
+Agencia de marketing digital especializada en el sector agropecuario, con enfoque en la región de la pampa (Uruguay, Argentina y Brasil).
+
 ## HOW TO START BACKEND ✨
 
 To run your Flask project, ensure that your virtual environment is activated. If you haven't created a virtual environment yet, you can do so using the following command (make sure you are in the main folder of your project):  
