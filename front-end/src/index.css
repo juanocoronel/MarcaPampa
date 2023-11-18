@@ -20,3 +20,7 @@ body {
     /* BEAUTIFUL BACKGROUND  */
     /* background: linear-gradient(135deg, #ffead0, #f4f0e1,#eff7fa, #f4f0e1, #ede6fd); */
     /* background-color: #f4f0e1; Fondo blanco hueso */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
