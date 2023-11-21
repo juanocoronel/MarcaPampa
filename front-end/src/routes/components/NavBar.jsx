@@ -121,7 +121,7 @@ export const Navbar = () => {
             Portafolio
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Tienda 
+              Tienda Online
             </a>
             <a href="#" className="text-sm font-semibold leading-6 text-white">
               Contacto

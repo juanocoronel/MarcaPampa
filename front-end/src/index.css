@@ -6,6 +6,25 @@
   font-family: "Poppins",sans-serif;
 }
 
+/* styles.css */
+
+@font-face {
+  font-family: "Blanka-Regular";
+  src: url("https://db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.eot");
+  src: url("https://db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.eot?#iefix") format("embedded-opentype"),
+       url("https://db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.woff2") format("woff2"),
+       url("https://db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.woff") format("woff"),
+       url("https://db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.ttf") format("truetype"),
+       url("https://db.onlinewebfonts.com/t/8cdbb48678e4418f22a2f507c2b975bd.svg#Blanka-Regular") format("svg");
+}
+
+body {
+  font-family: "Blanka-Regular", sans-serif;
+  /* Otros estilos para el cuerpo del documento */
+}
+
+/* Agrega otros estilos según sea necesario */
+
 
 body {  
     position: relative;

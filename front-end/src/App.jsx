@@ -19,7 +19,7 @@ export const App = () =>  {
   return (
     <EndpointProvider>
         <UserProvider>
-          <div className=" container-lg container-md container-sm ">
+          <div className="">
             <Navbar/>     
 
             <Routes>
