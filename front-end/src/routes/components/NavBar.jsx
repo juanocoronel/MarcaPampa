@@ -13,7 +13,7 @@ import {
   
   import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid';
   
-import logo from '../../imagenes/logo.png';
+
 
 
 const products = [
@@ -32,6 +32,14 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
+const LogoStyle = {
+  fontFamily: "Blanka-Regular, sans-serif",
+  fontWeight: "bold",
+  tracking: "tight",
+  color: "white",
+  wordSpacing: "0px",
+  letterSpacing: "3px"
+};
 
 export const Navbar = () => {
 
@@ -41,11 +49,10 @@ export const Navbar = () => {
   return (
     <>
       <header >
-        <nav style={{ backgroundColor: '#32620E' }} className="flex items-center justify-between p-6 lg:px-9 w-full absolute top-0 left-0" aria-label="Global">
+        <nav className="flex items-center bg-lime-900 justify-between p-6 lg:px-10 w-full absolute top-0 left-0" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="#" className="-m-2.5 p-2.5 h-12 w-auto" style={LogoStyle}> MARCA PAMPA
               <span className="sr-only">Your Company</span>
-              <img className="h-10 w-auto" src={logo} alt="" />
             </a>
 
           </div>
@@ -63,6 +70,9 @@ export const Navbar = () => {
           <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <a href="#" className="text-sm font-semibold leading-6 text-white">
               Inicio
+            </a>
+            <a href="#" className="text-sm font-semibold leading-6 text-white">
+              Sobre Mi
             </a>
             <Popover className="relative">
               <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-white">
@@ -89,7 +99,7 @@ export const Navbar = () => {
                         className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"
                       >
                         <div className="flex h-11 w-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-green-600" aria-hidden="true" />
+                          <item.icon className="h-6 w-6 text-gray-600 group-hover:text-lime-700" aria-hidden="true" />
                         </div>
                         <div className="flex-auto">
                           <a href={item.href} className="block font-semibold text-gray-900">
@@ -120,9 +130,9 @@ export const Navbar = () => {
             <a href="#" className="text-sm font-semibold leading-6 text-white">
             Portafolio
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            {/* <a href="#" className="text-sm font-semibold leading-6 text-white">
               Tienda Online
-            </a>
+            </a> */}
             <a href="#" className="text-sm font-semibold leading-6 text-white">
               Contacto
             </a>
