@@ -11,7 +11,7 @@ export const HomeScreen = () => {
     backgroundImage: `url('https://c.wallhere.com/photos/b5/4d/1920x1200_px_landscape-700153.jpg!d')`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    height: '90vh',
+    height: '60vh',
   };
 
   const h1Style = {
@@ -38,10 +38,10 @@ export const HomeScreen = () => {
         </div>
         <div className="text-center">
           <h1 style={h1Style} className="text-5xl font-bold tracking-tight text-lime-900 sm:text-7xl">
-            Marca Pampa            </h1>
-          <p className="mt-6 text-lg leading-8 text-white">
-          En la pampa uruguaya, el viento escribe versos en la llanura, y el susurro del pasto es poesía que abraza la tierra.            </p>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+            Retrato Pampa            </h1>
+          <p className="mt-8 text-lg leading-9 text-white">
+          Capturando la esencia de la pampa en cada imagen, donde la naturaleza y la historia se encuentran en un retrato único.         </p>
+          {/* <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
               href="#"
               className="rounded-md bg-lime-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-lime-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
@@ -50,14 +50,15 @@ Registrame            </a>
             <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
               Ingresar <span aria-hidden="true">→</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div
         className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
         aria-hidden="true"
       >
-      </div></div>
+      </div>
+      </div>
     </>
   )
 }

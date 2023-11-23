@@ -19,7 +19,7 @@ import {
 const products = [
   { name: 'Fotografia y Video', description: 'Capturamos historias de manera impactante. ', href: '#', icon: CameraIcon },
   { name: 'Diseño de Marca', description: 'Transformamos ideas en identidades visuales únicas.', href: '#', icon: PaintBrushIcon },
-  { name: 'Marketing Digital', description: 'Realzamos tu agro-negocio con estrategias online efectivas. ', href: '#', icon: PresentationChartLineIcon },
+  // { name: 'Marketing Digital', description: 'Realzamos tu agro-negocio con estrategias online efectivas. ', href: '#', icon: PresentationChartLineIcon },
   { name: 'Diseño Web', description: 'Impulsa tu presencia online con sitios cautivadores. ', href: '#', icon: CursorArrowRaysIcon },
 
 ]
@@ -51,7 +51,7 @@ export const Navbar = () => {
       <header >
         <nav className="flex items-center bg-lime-900 justify-between p-6 lg:px-10 w-full absolute top-0 left-0" aria-label="Global">
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-2.5 p-2.5 h-12 w-auto" style={LogoStyle}> MARCA PAMPA
+            <a href="#" className="-m-2.5 p-2.5 h-12 w-auto" style={LogoStyle}> RETRATO PAMPA
               <span className="sr-only">Your Company</span>
             </a>
 
@@ -138,9 +138,9 @@ export const Navbar = () => {
             </a>
           </Popover.Group>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            {/* <a href="#" className="text-sm font-semibold leading-6 text-white">
               Ingresar <span aria-hidden="true">&rarr;</span>
-            </a>
+            </a> */}
           </div>
         </nav>
 
