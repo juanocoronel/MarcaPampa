@@ -57,7 +57,7 @@ Initialize the folder as a Git repository:
 git init  
 
 # Add a remote repository:  
-git remote add origin https://github.com/19Mega/codebo-template  
+git remote add origin https://github.com/juanocoronel/RetratoPampa
 
 # Rename the current branch to "main":  
 git branch -m "main"  
